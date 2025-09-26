@@ -1,0 +1,4 @@
+HEADERS: Year | Winner | Jockey | Trainer | Owner | Race Replay
+ROW 1: 2025 | Sovereignty | Junior Alvarado | Bill Mott | Godolphin | 
+ROW 2: 2024 | Mystik Dan | Brian Joseph Hernandez Jr. | Kenny McPeek | Lance Gasaway, 4 G Racing LLC & Daniel Hamby III | 
+ROW 3: 2023 | Mage | Javier Castellano | Gustavo Delgado | OGMA Investments, Ramiro Restrepo, Sterling Racing, CMNWLTH[33] | 

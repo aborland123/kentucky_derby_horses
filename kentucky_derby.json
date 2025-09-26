@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Kentucky Derby Winner 2025: Sovereignty",
+    "summary": "Sovereignty won the 2025 Kentucky Derby with jockey Junior Alvarado, trainer Bill Mott, and owner Godolphin.",
+    "source_url": "https://www.kentuckyderby.com/past-winners/",
+    "extracted_at": "2025-09-25T19:34:52Z"
+  },
+  {
+    "id": 2,
+    "title": "Kentucky Derby Winner 2024: Mystik Dan",
+    "summary": "Mystik Dan claimed victory in the 2024 Kentucky Derby, ridden by Brian Joseph Hernandez Jr., trained by Kenny McPeek, and owned by Lance Gasaway, 4 G Racing LLC & Daniel Hamby III.",
+    "source_url": "https://www.kentuckyderby.com/past-winners/",
+    "extracted_at": "2025-09-25T19:34:52Z"
+  },
+  {
+    "id": 3,
+    "title": "Kentucky Derby Winner 2023: Mage",
+    "summary": "Mage triumphed in the 2023 Kentucky Derby with jockey Javier Castellano, trainer Gustavo Delgado, and owners OGMA Investments, Ramiro Restrepo, Sterling Racing, and CMNWLTH.",
+    "source_url": "https://www.kentuckyderby.com/past-winners/",
+    "extracted_at": "2025-09-25T19:34:52Z"
+  }
+]
