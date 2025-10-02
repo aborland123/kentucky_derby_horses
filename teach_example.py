@@ -3,7 +3,6 @@ import json
 import requests
 from openai import OpenAI
 
-# --- OpenAI client (uses your proxy & key pattern) ---
 ENDPOINT = os.getenv("OPENAI_BASE_URL")
 API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL = os.getenv("OPENAI_DEPLOYMENT", "gpt-4o")
@@ -13,7 +12,6 @@ client = OpenAI(base_url=ENDPOINT, api_key=API_KEY)
 SOURCE_URL = "https://www.kentuckyderby.com/past-winners/"
 OUT_TXT = "kentucky_derby.txt"
 
-# ---- Define a tool the model can call to "grab" the URL ----
 tools = [
     {
         "type": "function",
@@ -32,7 +30,6 @@ tools = [
 ]
 
 def run():
-    # System prompt tells the model how to use the tool and what to return.
     messages = [
         {
             "role": "system",
@@ -52,7 +49,6 @@ def run():
         }
     ]
 
-    # First request — model will likely call our tool.
     resp = client.chat.completions.create(
         model=MODEL,
         messages=messages,
