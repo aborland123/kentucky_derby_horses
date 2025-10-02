@@ -4,7 +4,7 @@ import requests
 from openai import OpenAI
 
 # --- OpenAI client (uses your proxy & key pattern) ---
-ENDPOINT = os.getenv("OPENAI_BASE_URL", "https://cdong1--azure-proxy-web-app.modal.run")
+ENDPOINT = os.getenv("OPENAI_BASE_URL")
 API_KEY = os.getenv("OPENAI_API_KEY")
 MODEL = os.getenv("OPENAI_DEPLOYMENT", "gpt-4o")
 
